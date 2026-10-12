@@ -29,7 +29,6 @@ export default defineConfig({
 						collapsed: true,
 						items: [
 							{ label: 'What We Assume', slug: 'planttut/preface/assumptions' },
-							{ label: 'What You Need', slug: 'planttut/preface/necessities' },
 						],
 					},
 					{
@@ -77,6 +76,16 @@ export default defineConfig({
 				],
 
 				},
+				{ label: 'Components', items: [
+					{ label: 'Drive Motors', slug: 'components/drivemotors' },
+					{ label: 'Weapon Motors', slug: 'components/weaponmotors' },
+					{ label: 'Servos', slug: 'components/servos' },
+					{ label: 'ESCs', slug: 'components/escs' },
+					{ label: 'Robot Power', slug: 'components/powersystem'},
+					{ label: 'Tx/Rx', slug: 'components/txrx' }
+				]
+
+				}
 			],	
 		}),
 		mdx(),
